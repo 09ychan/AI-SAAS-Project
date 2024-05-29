@@ -2,10 +2,11 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+//import { ArrowRight, Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-export const tools = [
+/*export const tools = [
   {
     label: "Conversation",
     icon:MessageSquare,
@@ -41,7 +42,9 @@ export const tools = [
     color: "text-green-700",
     bgColor: "bg-green-700/10",
 }
-];
+];*/
+
+import { tools } from "@/lib/tools";
 
 const DashboardPage = () => {
   const router = useRouter();

@@ -5,7 +5,7 @@ import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader } 
 import { useProModal } from "@/hooks/use-pro-modal";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "./ui/card";
-import { tools } from "@/app/(dashboard)/(routes)/dashboard/page";
+import { tools } from "@/lib/tools";
 import { cn } from "@/lib/utils";
 import { Check, Zap } from "lucide-react";
 import { Button } from "./ui/button";
