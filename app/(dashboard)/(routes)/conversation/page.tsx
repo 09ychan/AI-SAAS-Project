@@ -22,7 +22,6 @@ import { useProModal } from "@/hooks/use-pro-modal";
 import toast from "react-hot-toast";
 
 
-
 const Conversationpage = () => {
     const proModal = useProModal();
     const router = useRouter();
