@@ -2,6 +2,7 @@
 import prismadb from "@/lib/prismadb";
 import { MAX_FREE_COUNTS } from "@/constants";
 import { auth } from "@clerk/nextjs/server";
+import prisma from "@/lib/prismadb";
 
 export const increaseApiLimit = async() =>{
     const { userId } = auth();
