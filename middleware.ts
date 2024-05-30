@@ -6,7 +6,6 @@ const isDashboardRoute = createRouteMatcher(['/dashboard(.*)']);
 
 export default clerkMiddleware((auth, request) =>{
 
-
     if(!isPublicRoute(request)){
         auth().protect();
     }
